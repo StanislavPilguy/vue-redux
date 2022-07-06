@@ -16,18 +16,38 @@ const routes = [
     component: () => import('../views/AboutView.vue')
   },
   {
+    path: '/schedule',
+    name: 'schedule',
+    component: () => import('../views/SchedulePage.vue')
+  },
+  {
+    path: '/gallery',
+    name: 'gallery',
+    component: () => import('../views/GalleryPage.vue')
+  },
+  {
+    path: '/blog',
+    name: 'blog',
+    component: () => import('../views/BlogPage.vue')
+  },
+  {
+    path: '/contacts',
+    name: 'contacts',
+    component: () => import('../views/ContactsPage.vue')
+  },
+  {
     path: '/login',
     name: 'login',
     component: () => import('../views/LoginPage.vue')
   },
   {
     path: '/register',
-    name: 'Register',
+    name: 'register',
     component: () => import('../views/RegisterPage.vue')
   },
   {
     path: '/admin',
-    name: 'Admin',
+    name: 'admin',
     component: () => import('../views/AdminPage.vue')
   },
 ]

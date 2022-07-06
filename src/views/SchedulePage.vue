@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="schedule">
     <h1>{{ name }}</h1>
   </div>
 </template>
@@ -8,7 +8,7 @@
 export default {
   data() {
     return {
-      name: "About us Page"
+      name: "Schedule Page"
     }
   }
 }

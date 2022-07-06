@@ -1,14 +1,12 @@
 <template>
-  <div class="about">
-    <h1>{{ name }}</h1>
-  </div>
+  <h1>{{ name }}</h1>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      name: "About us Page"
+      name: "GalleryPage"
     }
   }
 }
