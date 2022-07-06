@@ -34,22 +34,7 @@ const routes = [
     path: '/contacts',
     name: 'contacts',
     component: () => import('../views/ContactsPage.vue')
-  },
-  {
-    path: '/login',
-    name: 'login',
-    component: () => import('../views/LoginPage.vue')
-  },
-  {
-    path: '/register',
-    name: 'register',
-    component: () => import('../views/RegisterPage.vue')
-  },
-  {
-    path: '/admin',
-    name: 'admin',
-    component: () => import('../views/AdminPage.vue')
-  },
+  }
 ]
 
 const router = new VueRouter({
