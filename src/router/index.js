@@ -34,6 +34,21 @@ const routes = [
     path: '/contacts',
     name: 'contacts',
     component: () => import('../views/ContactsPage.vue')
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('../views/LoginPage.vue')
+  },
+  {
+    path: '/registration',
+    name: 'registration',
+    component: () => import('../views/RegisterPage.vue')
+  },
+  {
+    path: '/admin',
+    name: 'admin',
+    component: () => import('../views/AdminPage.vue')
   }
 ]
 
