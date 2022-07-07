@@ -8,7 +8,7 @@
       <router-link to="/blog">Blog</router-link> |
       <router-link to="/contacts">Contacts</router-link> |
       <router-link to="/login">Login</router-link> |
-      <router-link to="/register">Register</router-link> |
+      <router-link to="/registration">Register</router-link> |
       <router-link to="/admin">Admin</router-link>
     </nav>
     <router-view/>
