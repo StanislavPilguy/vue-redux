@@ -11,6 +11,7 @@ export default {
       name: "About us Page"
     }
   }
+
 }
 </script>
 
