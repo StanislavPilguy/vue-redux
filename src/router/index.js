@@ -49,6 +49,10 @@ const routes = [
     path: '/admin',
     name: 'admin',
     component: () => import('../views/AdminPage.vue')
+  },
+  {
+    path: '/animate',
+    component: () => import('../views/Animate.vue')
   }
 ]
 

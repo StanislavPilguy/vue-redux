@@ -17,7 +17,7 @@ export class AuthService {
 
     static async register(email, password) {
         try {
-            return await Http.post('', {email, password})
+            return await Http.post('http://81.28.6.88:5000/auth/registration', {email, password})
         } catch (e) {
             throw new Error(e)
         }

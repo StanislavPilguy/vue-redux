@@ -71,7 +71,7 @@ export default new Vuex.Store({
       state.isAuth = false;
       state.user = {};
       state.token = '';
-      router.push('/login').then()
+      router.push('/admin/login').then()
     }
 
   },

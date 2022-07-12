@@ -1,4 +1,5 @@
 <template>
+
   <div>
     <input type="email" v-model="user.email">
     <br>
